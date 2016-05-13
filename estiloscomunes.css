@@ -1,0 +1,119 @@
+
+
+
+/*Elementos del Body*/
+
+header{
+	background-color: 2FEA11;
+	top: 0px;
+	width: 100%;
+	height: 100px;
+}
+
+
+footer{
+	bottom: 0px;
+	width: 100%;
+	height: 150px;
+}
+
+body{
+	background-color: black;
+}
+
+/* Elementos de la grilla*/
+.fila {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.filamain{
+	padding-bottom: 150px;
+	padding-left: 50px;
+	padding-top:100px;
+	width: 100%;
+}
+
+[class*=col-] {
+	float: left;
+}
+
+.col-1-1 {
+	width: 100%;
+}
+
+.col-1-2 {
+	width: 50%;
+}
+
+.col-1-3 {
+	width: 33.33%;
+}
+
+.separate-1-3{
+	margin-left: 33.33%
+}
+
+.separate-1-2{
+	margin-left: 50%
+}
+/*Elementos de Posicion*/
+
+
+
+.fija {
+	position: fixed;
+	left: 0px;
+	right: 0px;
+}
+
+#derecha{
+	position: relative;
+	left: 100px:;
+}
+
+.indice{
+	padding-top: 10%
+}
+
+.indicefooter{
+	padding-left: 2%;
+}
+
+/*Elementos de texto*/
+
+h1 , p ,address, li, strong,a{
+	color:white;
+	text-decoration: none;
+}
+
+
+
+/*Elementos de imagen*/
+
+#logo{
+	width:auto;
+	height: auto;
+	padding-left: 10%;
+ }
+
+/*Elementos de Tamaño*/
+
+#pequeno{
+	width:20px;
+	height:20px;
+}
+ 
+#mediano{
+	width:100px ;
+	height:100px;
+}
+
+
+/*color*/
+#negro{
+	background-color: black;
+}
+
+
