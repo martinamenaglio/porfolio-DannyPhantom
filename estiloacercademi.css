@@ -1,0 +1,16 @@
+.retrato{
+	width: 80%;
+	height: auto;
+}
+
+p, li{
+	padding-left: 0px;
+	width: 500px;
+}
+
+.filamain{
+	padding-bottom: 150px;
+	padding-left: 50px;
+	padding-top:150px;
+
+}

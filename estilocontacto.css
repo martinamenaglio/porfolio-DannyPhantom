@@ -1,13 +1,21 @@
-div img{
+#centrarimagen{
 	width: 150px;
 	height: 150px;
+	padding-left: 140px;
 }
 
 .centrado{
-	padding-left: 30%;
+	padding-top: 150px;
+	padding-bottom: 150px;
+
 }
 
 address{
 	text-align: center;
 }
+
+.filamain{
+	padding-left: 50px;
+}
+
 
