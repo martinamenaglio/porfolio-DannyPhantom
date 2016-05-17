@@ -4,17 +4,23 @@ div img {
 
 }
 
-section div{
-	
-}
-
 p{
 	width: 300px
 }
 
+.col-villano{
+	width: 33.33%;
+}
+
 .filamain{
 	padding-bottom: 100px;
-	padding-left: 50px;
 	padding-top:100px;
 
+}
+
+@media (max-width: 500px){
+
+	.col-villano{
+		width: 100%;
+	}
 }

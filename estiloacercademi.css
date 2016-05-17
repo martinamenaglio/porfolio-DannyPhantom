@@ -5,12 +5,20 @@
 
 p, li{
 	padding-left: 0px;
-	width: 500px;
+	width: 100%;
 }
 
 .filamain{
-	padding-bottom: 150px;
-	padding-left: 50px;
-	padding-top:150px;
+	padding-bottom: 10%;
+	padding-top:10%;
+}
+
+
+@media(max-width: 500px){
+
+	.col-1-2{
+		width: 100%;
+		padding-top: 30%;
+	}
 
 }

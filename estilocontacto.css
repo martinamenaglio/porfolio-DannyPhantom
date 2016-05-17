@@ -1,13 +1,17 @@
 #centrarimagen{
-	width: 150px;
-	height: 150px;
-	padding-left: 140px;
+	width: 40%;
+	height: 40%;
+	margin: 0 25%;
 }
 
 .centrado{
-	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-top: 20%;
+	padding-bottom: 10%;
 
+}
+
+.col-contacto{
+	width: 33.33%;
 }
 
 address{
@@ -15,7 +19,13 @@ address{
 }
 
 .filamain{
-	padding-left: 50px;
+	margin: 0 2%; 
 }
 
 
+@media(max-width: 500px){
+
+	.col-contacto{
+		width: 100%;
+	}
+}
