@@ -1,13 +1,12 @@
 
-
-
 /*Elementos del Body*/
 
 header{
 	background-color: #2FEA11;
 	top: 0px;
 	width: 100%;
-	height: 100px;
+	height: 110px;
+	
 }
 
 
@@ -15,10 +14,13 @@ footer{
 	bottom: 0px;
 	width: 100%;
 	height: 150px;
+	text-align: center;
+	
 }
 
 body{
 	background-color: black;
+	
 }
 
 /* Elementos de la grilla*/
@@ -26,12 +28,9 @@ body{
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
+	display: inline-block;
 }
 
-.filamain{
-	width: 100%;
-	margin:0 5%;
-}
 
 [class*=col-] {
 	float: left;
@@ -39,6 +38,7 @@ body{
 
 .col-1-1 {
 	width: 100%;
+	
 }
 
 .col-1-2 {
@@ -58,8 +58,6 @@ body{
 }
 /*Elementos de Posicion*/
 
-
-
 .fija {
 	position: fixed;
 	left: 0px;
@@ -75,9 +73,6 @@ body{
 	padding-top: 10%
 }
 
-.indicefooter{
-	padding-left: 2%;
-}
 
 /*Elementos de texto*/
 
@@ -96,20 +91,21 @@ h1 , p ,address, li, strong,a{
 #logo{
 	width:auto;
 	height: auto;
-	padding-left: 10%;
  }
 
 /*Elementos de Tamaño*/
 
 #pequeno{
-	width:3%;
-	height:3%;
+	width:2%;
+	height:2%;
+
 }
  
 #mediano{
-	width:20% ;
-	height:20%;
-	margin: 0px -2%;
+	width:10% ;
+	height:10%;
+	margin: 0 5%;
+
 
 }
 
@@ -120,6 +116,17 @@ h1 , p ,address, li, strong,a{
 	.indice a{
 		display: block;
 		
+	}
+
+	#pequeno{
+		width:10%;
+		height:10%;
+	}
+
+	#mediano{
+		width: 50%;
+		height: 50%;
+		margin: 0 -2%;
 	}
 
 }

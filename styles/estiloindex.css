@@ -13,9 +13,13 @@ p{
 }
 
 .filamain{
-	padding-bottom: 100px;
-	padding-top:100px;
+	padding-top:7%;
+	padding-left: 10%;
+	padding-bottom: 10%;
+}
 
+.titulo{
+	text-align: inline;
 }
 
 @media (max-width: 500px){

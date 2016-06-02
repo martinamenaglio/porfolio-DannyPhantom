@@ -1,13 +1,13 @@
 #centrarimagen{
 	width: 40%;
 	height: 40%;
-	margin: 0 25%;
+	margin: 0 30%;
 }
 
 .centrado{
-	padding-top: 20%;
+	padding-top: 10%;
 	padding-bottom: 10%;
-
+	
 }
 
 .col-contacto{
@@ -18,14 +18,14 @@ address{
 	text-align: center;
 }
 
-.filamain{
-	margin: 0 2%; 
-}
-
 
 @media(max-width: 500px){
 
 	.col-contacto{
 		width: 100%;
+	}
+
+	.filamain{
+	 	padding-top: 30%;
 	}
 }
