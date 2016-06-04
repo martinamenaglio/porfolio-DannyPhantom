@@ -8,9 +8,30 @@ p, li{
 	width: 90%;
 }
 
+.centrar{
+	padding-top: 5%;
+}
+
 .filamain{
-	padding-bottom: 60%;
-	padding-top:10%;
+	padding: 10% 0% 60% 4%;
+}
+
+.dropdown {
+    display:block;
+    line-height: 30px;
+}
 
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2FEA11;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }

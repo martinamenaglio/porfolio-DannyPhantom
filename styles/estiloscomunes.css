@@ -5,7 +5,7 @@ header{
 	background-color: #2FEA11;
 	top: 0px;
 	width: 100%;
-	height: 110px;
+	height: 120px;
 	
 }
 
@@ -20,6 +20,7 @@ footer{
 
 body{
 	background-color: black;
+	margin: 
 	
 }
 
@@ -70,7 +71,9 @@ body{
 }
 
 .indice{
-	padding-top: 10%
+	padding-top: 10%;
+
+
 }
 
 
@@ -89,8 +92,10 @@ h1 , p ,address, li, strong,a{
 /*Elementos de imagen*/
 
 #logo{
-	width:auto;
 	height: auto;
+	width: 60%;
+	padding-top: 2%;
+	
  }
 
 /*Elementos de Tamaño*/
