@@ -1,58 +1,100 @@
-.retrato{
-	width: 80%;
-	height: auto;
-}
-
-p, li{
-	padding-left: 0px;
-	width: 90%;
-}
-
-.centrar{
-	padding-top: 5%;
-}
-
-.filamain{
-	padding: 10% 0% 60% 4%;
-}
-
-.dropdown {
-    display:block;
-    line-height: 30px;
-}
 
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #2FEA11;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
+/*para desktop*/
+
+	.retrato{
+		width: 80%;
+		height: auto;
+	}
+
+	p, li{
+		padding-left: 0px;
+		width: 90%;
+	}
+
+	.centrar{
+		padding-top: 5%;
+	}
+
+	.filamain{
+		padding: 10% 0% 60% 4%;
+	}
+
+	.dropdown {
+	    display:block;
+	    line-height: 30px;
+	}
+
+
+	.dropdown-content {
+	    display: none;
+	    position: absolute;
+	    background-color: #2FEA11;
+	    min-width: 160px;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    padding: 12px 16px;
+	    z-index: 1;
+	}
+
+	.dropdown:hover .dropdown-content {
+	    display: block;
+	}
+
+	.active-2{
+		text-decoration: none;
+	}
+
+
+
+@media (min-width: 500px) and (max-width:600px){
+/*para tablet*/
+
+	.filamain{
+    	padding: 20% 0% 100% 4%;
+	}
+
+	.col-1-2{
+		width: 100%;
+	}
+
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+@media (max-width: 320px){
+	/*para iphone 5*/
 
-.active-2{
-	text-decoration: none;
-}
-@media(max-width: 500px){
+	.filamain{
+		padding-top:40%; 
+		padding-bottom: 250%;
+		padding-left: 4%;
+	}
 
-.filamain{
-	padding-top:40%; 
-	padding-bottom: 250%;
-	padding-left: 4%;
-}
+	.col-1-2{
+		width: 100%;
+	}
 
-.col-1-2{
-	width: 100%;
-}
 
-.col-1-1{
-	padding-top: 20%;
-}
+	.dropdown-content {
+		visibility: hidden;
+	}
 
 }
+
+@media (orientation: landscape) and(max-height: 500px) {
+	/*para iphone 5 lanscape*/
+
+	.filamain{
+		padding-top: 20%;
+	    padding-bottom: 80%;
+	    padding-left: 10%;
+
+	.col-1-2 {
+		width: 100%;
+	}
+
+	.dropdown-content {
+		visibility: hidden;
+	}
+
+
+}
+

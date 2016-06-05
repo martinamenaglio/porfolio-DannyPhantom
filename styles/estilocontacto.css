@@ -1,28 +1,49 @@
-#centrarimagen{
-	width: 40%;
-	height: 40%;
-	margin: 0 30%;
-}
 
-.centrado{
-	padding-top: 10%;
-	padding-bottom: 10%;
-	
-}
 
-.col-contacto{
-	width: 33.33%;
-}
+/*para desktop*/
 
-address{
-	text-align: center;
-}
+	#centrarimagen{
+		width: 40%;
+		height: 40%;
+		margin: 0 30%;
+	}
 
-.active-3{
-	text-decoration: none;
-}
+	.centrado{
+		padding-top: 20%;
+		padding-bottom: 20%;
+		
+	}
 
-@media(max-width: 500px){
+	.col-contacto{
+		width: 33.33%;
+	}
+
+	address{
+		text-align: center;
+	}
+
+
+
+
+@media (min-width: 500px) and (max-width:600px){
+/*para tablet*/
+	.col-contacto{
+		width: 100%;
+	}
+
+
+	.filamain{
+    	padding: 20% 0% 40% 4%;
+	}
+
+	address{
+		font-size: 13px;
+	}
+} 
+
+
+@media(max-width: 320px){
+	/*para iphone 5*/
 
 	.col-contacto{
 		width: 100%;
@@ -32,4 +53,36 @@ address{
 	 	padding-top: 30%;
 	 	padding-bottom: 30%;
 	}
+}
+
+.active-3{
+	text-decoration: none;
+}
+
+
+@media (orientation: landscape) and (max-height: 500px) {
+	/*para iphone 5 lanscape*/
+
+	.col-contacto{
+		width: 100%;
+	}
+
+	.filamain{
+	 	padding-top: 10%;
+	 	padding-bottom: 200%;
+	}
+
+
+	#centrarimagen{
+		width: 35%;
+		height: 30%;
+		margin: 0 30%;
+	}
+
+	address{
+		width: 35%;
+		margin: 0 30%;
+
+	}
+
 }

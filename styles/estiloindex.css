@@ -1,11 +1,16 @@
+
+
+
+/*para desktop*/
 div img {
-	width: 300px;
-	height: 300px;
+	width: 80%;
+	height: 100%;
 
 }
 
 p{
-	width: 300px
+	width: 80%;
+	text-align: center;
 }
 
 .col-villano{
@@ -21,8 +26,37 @@ p{
 }
 
 
-@media (max-width: 500px){
+/*@media  (min-width: 500px) and (max-width:600px){
 
+/*para tablet*/
+
+	/*.col-villano{
+		width: 100%;
+	}
+
+	.filamain{
+		padding: 10% 0% 10% 10%;
+	}
+
+	div img {
+	width: 60%;
+	height: 60%;
+
+	}
+
+	p{
+		width: 60%;
+		font-size: 60%;
+	}
+
+	h1{
+		font-size: 80%;
+	}
+
+}*/
+
+@media(max-width: 440px){
+/*para celulares*/
 	
 
 	.col-villano{
@@ -30,7 +64,36 @@ p{
 	}
 
 	.filamain{
-		padding: 10% 0% 10% 8%;
+		padding: 20% 0% 10% 30%;
 		
 	}
+	div img {
+	width: 60%;
+	height: 60%;
+
+	}
+
+	p{
+		width: 60%;
+		font-size: 60%;
+	}
+
+	h1{
+		font-size: 80%;
+	}
+
+
+}
+
+
+@media (orientation: landscape) and(max-height: 500px){
+	/*para iphone 5 lanscape*/
+
+	.filamain{
+		padding: 25% 0% 5% 5% ;
+
+	}
+
+	
+
 }
