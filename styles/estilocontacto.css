@@ -18,6 +18,9 @@ address{
 	text-align: center;
 }
 
+.active-3{
+	text-decoration: none;
+}
 
 @media(max-width: 500px){
 
@@ -27,5 +30,6 @@ address{
 
 	.filamain{
 	 	padding-top: 30%;
+	 	padding-bottom: 30%;
 	}
 }

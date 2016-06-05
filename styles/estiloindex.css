@@ -16,13 +16,21 @@ p{
 	padding: 10% 2% 10% 8%;
 }
 
-.titulo{
-	padding-top: 2%;
+.active-1{
+	text-decoration: none;
 }
+
 
 @media (max-width: 500px){
 
+	
+
 	.col-villano{
 		width: 100%;
+	}
+
+	.filamain{
+		padding: 10% 0% 10% 8%;
+		
 	}
 }

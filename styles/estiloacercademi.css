@@ -35,3 +35,24 @@ p, li{
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.active-2{
+	text-decoration: none;
+}
+@media(max-width: 500px){
+
+.filamain{
+	padding-top:40%; 
+	padding-bottom: 250%;
+	padding-left: 4%;
+}
+
+.col-1-2{
+	width: 100%;
+}
+
+.col-1-1{
+	padding-top: 20%;
+}
+
+}
