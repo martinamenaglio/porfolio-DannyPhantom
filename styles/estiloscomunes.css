@@ -27,6 +27,9 @@
 		background-color: black;
 		
 	}
+	.filamain{
+		margin-top: 130px;
+	}
 
 	/* Elementos de la grilla*/
 	.fila {
@@ -150,9 +153,7 @@
 @media (min-width: 440px)and (max-width:800px ){
 
 
-	.indice{
-		padding-top: 2%;
-	}
+	
 
 	.indice a{
 		display: block;
