@@ -46,35 +46,45 @@
 
 
 
-@media (min-width: 500px) and (max-width:600px){
+@media (min-width: 440px) and (max-width:800px){
 /*para tablet*/
 
 	.filamain{
     	padding: 20% 0% 100% 4%;
 	}
 
-	.col-1-2{
+
+	.imagen{
 		width: 100%;
 	}
 
+	.centrar{
+		width: 100%
+	}
 }
 
-@media (max-width: 320px){
+@media (max-width: 440px){
 	/*para iphone 5*/
 
 	.filamain{
 		padding-top:40%; 
-		padding-bottom: 250%;
+		padding-bottom: 200%;
 		padding-left: 4%;
 	}
 
-	.col-1-2{
-		width: 100%;
-	}
 
+	
 
 	.dropdown-content {
 		visibility: hidden;
+	}
+
+	.imagen{
+		width: 100%;
+	}
+
+	.centrar{
+		width: 100%
 	}
 
 }
@@ -86,10 +96,12 @@
 		padding-top: 20%;
 	    padding-bottom: 80%;
 	    padding-left: 10%;
-
-	.col-1-2 {
+	}
+	.centrar {
 		width: 100%;
 	}
+
+
 
 	.dropdown-content {
 		visibility: hidden;

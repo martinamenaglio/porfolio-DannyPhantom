@@ -25,7 +25,7 @@
 
 
 
-@media (min-width: 500px) and (max-width:600px){
+@media (min-width: 440px) and (max-width:800px){
 /*para tablet*/
 	.col-contacto{
 		width: 100%;
@@ -42,8 +42,8 @@
 } 
 
 
-@media(max-width: 320px){
-	/*para iphone 5*/
+@media(max-width: 440px){
+	/*para celulares*/
 
 	.col-contacto{
 		width: 100%;
