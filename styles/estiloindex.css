@@ -18,7 +18,8 @@ p{
 }
 
 .filamain{
-	padding: 10% 2% 10% 8%;
+	margin-top: 130px;
+	padding: 0% 2% 10% 8%;
 }
 
 .active-1{
@@ -64,7 +65,7 @@ p{
 	}
 
 	.filamain{
-		padding: 20% 0% 10% 30%;
+		padding: 0% 0% 10% 30%;
 		
 	}
 	div img {
@@ -90,10 +91,10 @@ p{
 	/*para iphone 5 lanscape*/
 
 	.filamain{
-		padding: 25% 0% 5% 5% ;
+		padding: 0% 0% 2% 2% ;
 
 	}
 
-	
+
 
 }

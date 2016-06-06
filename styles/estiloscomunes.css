@@ -10,6 +10,7 @@
 		top: 0px;
 		width: 100%;
 		height: 130px;
+
 		
 	}
 
@@ -24,7 +25,6 @@
 
 	body{
 		background-color: black;
-		margin: 
 		
 	}
 
@@ -83,6 +83,7 @@
 		margin: 0;
 	    overflow: hidden;
 	    background-color: #2FEA11;
+	    height: 130px;
 
 	}
 
@@ -93,11 +94,12 @@
 	    text-align: center;
 	    text-decoration: underline;
 	    float: left;
-	    padding: 20% 2% 0% 2%;
+	    padding: 10% 2% 0% 4%;
+	    float: none;
 	}
 
 	ul{
-		padding-right:3%;
+		padding-right:40px;
 		margin-top: 0%;
 	}
 	li{
@@ -123,121 +125,102 @@
 	/*Elementos de imagen*/
 
 	#logo{
-		height: auto;
-		width: 60%;
-		padding-top: 2%;
-
+		height: 100px;
+		width: auto;
+		padding-top: 10px;
+    	float: left;
 	 }
 
 	/*Elementos de Tamaño*/
 
 	#pequeno{
-		width:2%;
-		height:2%;
+		width:15px;
+		height:15px;
 
 	}
 	 
 	#mediano{
-		width:10% ;
-		height:10%;
+		width: 90px;
+		height:90px;
 		margin: 0 5%;
 
 
 	}
 
+@media (min-width: 440px)and (max-width:800px ){
 
-
-/*@media only screen and  (min-width: 767) and (max-height: 1025){
-
-/*para ipad*/
-
-	/*#logo{
-		width: 110%;
-	}
 
 	.indice{
-		padding:10% 5% 5% 8%;
-		font-size: 100%;
+		padding-top: 2%;
 	}
 
 	.indice a{
 		display: block;
-		
-		padding-top:0%; 
+		font-size: 100%;
+	 
 	}
 
-	ul{
-		padding-right: 6%;
+	nav a{
+		padding-top: 2%;
 	}
-	header{
+	footer{
 		height: 100px;
 	}
-
 	ul{
-		padding-right: 10%;
-	}
-
-	#pequeno{
-		width:5%;
-		height:5%;
+		padding-right: 40px;
 	}
 
 	#mediano{
-		width: 20%;
-		height: 20%;
+		width: 70px;
+		height: 70px;
 		
 	}
-	
+
+	#pequeno{
+		width:10px;
+		height:10px;
+	}
+
 }
 
-*/
 @media(max-width: 440px){
 	/*para iphone 5,6,6plus,galaxy s5, Nexus 5X, Nexus 5P*/
 
-	header{
-		height: 100px;
-	}
+
 
 	.indice{
-		padding:10% 5% 5% 8%;
+		margin: 0 5%;
+		font-size: 100%;
+
 	}
 
 	.indice a{
 		display: block;
-		font-size: 90%;
-		padding-top:0%; 
+		
+	 
 	}
 
+	footer{
+		height: 100px;
+	}
 	ul{
-		padding-right: 10%;
+		padding-right: 40px;
 	}
 
 	#pequeno{
-		width:5%;
-		height:5%;
+		width:10px;
+		height:10px;
 	}
 
 	#mediano{
-		width: 20%;
-		height: 20%;
+		width: 50px;
+		height: 50px;
 		
 	}
 
 	#logo{
 		width: 120%;
 		padding-top: 10%;
-	}
-
-	.separate-1-3{
-		margin-left: 20%;
-	}
-
-	.col-1-3{
-		width: 40%;
-	}
-
-	.col-1-1{
-		padding-top: 20%;
 	}
 }
 
@@ -246,7 +229,7 @@
 
 	.indice {
 
-	    font-size: 90%;
+	    font-size: 80%;
 	    padding-top: 10%;
 	}
 
@@ -255,7 +238,7 @@
 	}
 
 	#logo{
-		width: 110%;
+		width: auto;
 		padding-top:10%; 
 	}
 
