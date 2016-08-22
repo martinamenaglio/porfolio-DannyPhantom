@@ -112,6 +112,10 @@
 
 	}
 
+	.active{
+		text-decoration: none;
+	}
+
 
 
 	/*Elementos de texto*/

@@ -18,43 +18,9 @@ p{
 }
 
 .filamain{
-	margin-top: 130px;
 	padding: 0% 2% 10% 8%;
 }
 
-.active-1{
-	text-decoration: none;
-}
-
-
-/*@media  (min-width: 500px) and (max-width:600px){
-
-/*para tablet*/
-
-	/*.col-villano{
-		width: 100%;
-	}
-
-	.filamain{
-		padding: 10% 0% 10% 10%;
-	}
-
-	div img {
-	width: 60%;
-	height: 60%;
-
-	}
-
-	p{
-		width: 60%;
-		font-size: 60%;
-	}
-
-	h1{
-		font-size: 80%;
-	}
-
-}*/
 
 @media(max-width: 440px){
 /*para celulares*/
